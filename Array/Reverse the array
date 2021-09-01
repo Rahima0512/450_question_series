@@ -1,0 +1,12 @@
+string reverseWord(string str)
+
+{
+    int x=str.length();
+    for(int low=0,high=x-1;low<=high;low++,high--)
+    {
+        swap(str[low],str[high]);
+        
+    }
+return str;
+    
+}
